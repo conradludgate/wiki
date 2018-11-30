@@ -15,12 +15,14 @@ make
 
 This should make the `wiki` binary file appear in your current folder.
 
-Then upload that bin file to your remarkable at /usr/bin/graph
+Then upload that bin file to your remarkable at /usr/bin/wiki
 
 ### Draft
 
-If you're using the draft launcher, upload the draft-loader file to /etc/draft/XX-graph, where XX is whatever number you want.
+If you're using the draft launcher, upload the draft-loader file to /etc/draft/XX-wiki, where XX is whatever number you want.
 draft programs are listed in alphabetical order, so the higher the number you pick, the later it will appear in the list.
+
+Also copy the wiki.png image to /etc/draft/icons/wiki.png
 
 You'll have to restart your remarkable to get your loader to show in the listings.
 
@@ -30,7 +32,7 @@ To run the program, you'll have to ssh into your remarkable and run
 
 ```sh
 systemctl stop xochitl
-graph
+wiki
 ```
 
 To restart xochitl (The main remarkable ui), just run

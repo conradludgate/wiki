@@ -2,4 +2,4 @@ name=Wiki Reader
 desc=Wikipedia Reader
 call=/usr/bin/wiki
 term=:
-imgFile=fingerterm
+imgFile=wiki
